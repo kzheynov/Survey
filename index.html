@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Spaghetti Survey Project</title>
+
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+  <div class="survey">
+   <header>
+   <h1 id="title">Spaghetti Survey</h1>
+<hr>
+<p id="description">Share us your spaghetti experience!</p>
+  </header>
+<div class="form">
+ <form id="survey-form" method="GET">
+  <div>
+   <div class="labels">
+    <label id="name-label" for="name">* Name:</label>
+   </div>
+  <div class="input-right">
+   <input type="text" id="name" name="name" class="input-field" placeholder="Enter your name" required>
+   </div>
+  </div>
+<div>
+<div class="labels">
+  <label id="email-label" for="email">* Email:</label>
+   </div>
+<div class="input-right">
+<input type="email" id="email" name="email" class="input-field"
+placeholder="Enter your Email" required>
+   </div>
+   </div>
+<div>
+<div class="labels">
+  <label id="number-label" for="age">* Age:</label>
+  </div>
+  <div class="input-right">
+<input type="number" id="number" min="1" max="120" name="age" class="input-field" placeholder="Age" required>
+  </div>
+   </div>
+   <div>
+<div class="labels">
+  <label for="eat">How do you eat Spaghetti?</label>
+  </div>
+<div class="input-right">
+<select id="dropdown" name="eat" class="dropdown input-field">
+  <option disabled value selected>Select an option</option>
+  <option value="fork">With a fork</option>
+  <option value="fork-spoon">With fork and spoon</option>
+  <option value="spoon">Only with a spoon</option>
+  <option value="sticks">Chopsticks</option>
+  <option value="hands">With hands</option>
+  <option value="nohands">No hands</option>
+  </select>
+     </div>
+   </div>
+  <div>
+   <div class="labels">
+     <label for="favourite">What's your favourite spaghetti sauce?</label>
+    </div>
+   <div class="input-right" id="favourite">
+     <input type="radio" name="favourite" class="radio" value="carbonara">Carbonara<br>
+     <input type="radio" name="favourite" class="radio" value="bolognese">Bolognese<br>
+   <input type="radio" name="favourite" class="radio" value="pesto">Pesto sauce<br>
+     <input type="radio" name="favourite" class="radio" value="alfredo">Alfredo<br>
+</div>
+</div>
+    <div>
+<div class="labels">
+  <label for="often">How often do you eat spaghetti?</label>
+      </div>
+      <div class="input-right">
+    <select id="dropdown" name="often" class="dropdown input-field">
+         <option disabled value selected>Select an option</option>
+         <option value="1">Once а week</option>
+      <option value="2-3">2-3 times a week</option>
+      <option value="4-5">4-5 times a week</option>
+      <option value="7">Everyday</option>
+      <option value="24/7">Every hour</option>
+        </select>
+      </div>
+</div>
+<div>
+<div class="labels">
+  <label for="company">Who do you eat with?</label>
+  </div>
+<div class="input-right" id="company">
+   <input type="checkbox" name="company" class="check" value="friends">Friends<br>
+   <input type="checkbox" name="company" class="check" value="family">Family<br>
+   <input type="checkbox" name="company" class="check" value="partner">Lover<br>
+   <input type="checkbox" name="company" class="check" value="alone">Alone<br>
+   <input type="checkbox" name="company" class="check" value="cat">The cat<br>
+</div>
+</div>
+<div>
+<div class="labels">
+  <label for="recipe">Share us your recipe (if it's not a secret)</label>
+</div>
+<div class="input-right">
+  <textarea id="recipe" name="recipe" class="input-field" style="height: 200px;" placeholder="Your recipe..."></textarea>
+</div>
+</div>
+<button type="submit" id="submit" class="btn btn-success">Submit</button>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+
+
+</body>
+
+</html>

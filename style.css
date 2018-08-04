@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html, body {
+text-align: center;
+font-family: 'Varela round', sans-serif; 
+background-image:url(https://www.gimmesomeoven.com/wp-content/uploads/2018/04/How-To-Make-Cacio-e-Pepe-Recipe-4-1.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment: fixed;
+width:100%;
+}
+.survey {
+background-color:#EFA148;
+width: 82vw;
+margin: 5em auto;
+border-radius: 15px;
+padding: 3vw;
+position:relative;
+}
+.form{
+background-color:#FEEEDC;
+padding: 4vw;
+border-radius: 15px;
+margin:0 auto;
+}
+h1{
+font-size: 3.5em;
+text-align: center;
+color: #38230A;
+}
+#description {
+font-size: 2em;
+color:#693902;
+}
+.labels{
+text-align:right;
+display: inline-block;
+padding:5px;
+width:30vw;
+vertical-align: top;
+}
+.input-right{
+display: inline-block;
+text-align:left;
+padding:5px;
+width:30vw;
+margin-left:5px;
+}
+.input-field{
+display: inline-block;
+border-radius:4px;
+width:18vw;
+}
+.btn{
+font-size:1.5em;
+}
+.radio, .check {
+display:inline-block;
+position:relative;
+left: -5px;
+}
+#submit{
+margin-top:20px;
+width: 8em;
+}
